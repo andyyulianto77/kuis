@@ -1,0 +1,84 @@
+{
+  "id": "0926e450-e8f1-487b-ba4e-ec98498e622e",
+  "title": "kuis",
+  "author": "",
+  "description": "own course",
+  "license": "by-sa",
+  "metadata": {
+    "author": {},
+    "site": {
+      "name": "kuis",
+      "logo": "assets/banner.jpg",
+      "settings": {
+        "lang": "en-US",
+        "publishPagesOn": true,
+        "canonical": true
+      },
+      "created": 1762212603,
+      "updated": 1762213104,
+      "git": {
+        "vendor": "github",
+        "branch": "gh-pages"
+      }
+    },
+    "theme": {
+      "element": "custom-kuis-theme",
+      "path": "./custom/build/custom.es6.js",
+      "name": "CustomKuisTheme"
+    },
+    "node": {
+      "fields": {}
+    },
+    "build": {
+      "version": "11.0.5",
+      "structure": "course",
+      "type": "own"
+    }
+  },
+  "items": [
+    {
+      "id": "item-b3767224-058a-4031-a276-bae9e4a79b7a",
+      "indent": 0,
+      "location": "pages/item-b3767224-058a-4031-a276-bae9e4a79b7a/index.html",
+      "slug": "welcome",
+      "order": 0,
+      "parent": null,
+      "title": "Welcome to kuis",
+      "description": "",
+      "metadata": {
+        "created": 1762212602,
+        "updated": 1762212602
+      }
+    },
+    {
+      "id": "item-2dabd214-5a54-4405-89d9-455237ac8b8c",
+      "indent": 0,
+      "location": "pages/item-2dabd214-5a54-4405-89d9-455237ac8b8c/index.html",
+      "slug": "page",
+      "order": 1,
+      "parent": null,
+      "title": "Page",
+      "description": "\n\nDeep thoughts..\nI at times, enjoy coffee. Those times, are all times.\nItemItem\nHeading\n",
+      "metadata": {
+        "created": 1762212838,
+        "updated": 1762213104,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1,
+        "files": [
+          {
+            "path": "C:\\Users\\Administrator\\Downloads\\git\\andyprodistik\\kuis\\files\\kucing.jpg",
+            "fullUrl": "/C:\\Users\\Administrator\\Downloads\\git\\andyprodistik\\kuis/files/kucing.jpg",
+            "url": "files/kucing.jpg",
+            "type": "image/jpeg",
+            "name": "kucing.jpg",
+            "size": 17200
+          }
+        ]
+      }
+    }
+  ]
+}
