@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762215380,
+      "updated": 1762221321,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -124,6 +124,58 @@
         "updated": 1762215380,
         "images": {},
         "videos": {},
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
+      }
+    },
+    {
+      "id": "item-kuis-simple",
+      "indent": 0,
+      "location": "pages/item-kuis/index.html",
+      "slug": "kuis",
+      "order": 6,
+      "parent": null,
+      "title": "Kuis (atribut)",
+      "description": "",
+      "metadata": {
+        "created": 1762218999,
+        "updated": 1762218999,
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
+      }
+    },
+    {
+      "id": "item-9b15cf15-bf48-4ef0-837a-d45637b0224e",
+      "indent": 0,
+      "location": "pages/item-9b15cf15-bf48-4ef0-837a-d45637b0224e/index.html",
+      "slug": "page-3",
+      "order": 5,
+      "parent": null,
+      "title": "Page",
+      "description": "",
+      "metadata": {
+        "created": 1762221614,
+        "updated": 1762221614,
+        "images": [],
+        "videos": []
+      }
+    },
+    {
+      "id": "item-kuis-fitur",
+      "indent": 0,
+      "location": "pages/item-kuis-fitur/index.html",
+      "slug": "kuis-fitur",
+      "order": 7,
+      "parent": null,
+      "title": "Fitur Kuis",
+      "description": "Ringkasan fitur kuis",
+      "metadata": {
+        "created": 1762221117,
+        "updated": 1762221117,
         "published": true,
         "hideInMenu": false,
         "locked": false,
