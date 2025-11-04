@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762214759,
+      "updated": 1762215380,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -118,12 +118,16 @@
       "order": 3,
       "parent": null,
       "title": "Page",
-      "description": "",
+      "description": "\nDeep thoughts..\nDeep thoughts..\nDeep thoughts..\nDeep thoughts..\n\n\n\n",
       "metadata": {
         "created": 1762215336,
-        "updated": 1762215336,
-        "images": [],
-        "videos": []
+        "updated": 1762215380,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
       }
     }
   ]
