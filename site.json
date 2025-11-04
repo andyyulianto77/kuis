@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762213104,
+      "updated": 1762214534,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -85,15 +85,19 @@
       "indent": 0,
       "location": "pages/item-9dc1e752-3e55-4d6c-8376-f5e3cad1c79f/index.html",
       "slug": "page-1",
-      "order": 1,
+      "order": 2,
       "parent": null,
       "title": "Page",
-      "description": "",
+      "description": "\nSelf evident, Refer back to 1st gradeConsider that numbers tend to go zero, one, two...\nBy the end of this lesson, you should be able to...\nWhat is strawberry in Spanishfresa\n\n",
       "metadata": {
         "created": 1762214510,
-        "updated": 1762214510,
-        "images": [],
-        "videos": []
+        "updated": 1762214534,
+        "images": {},
+        "videos": {},
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
       }
     }
   ]
