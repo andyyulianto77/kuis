@@ -8,6 +8,8 @@ class ConfettiQuiz extends LitElement {
         isDisabled: { type: Boolean },
         currentQuestionIndex: { type: Number },
         showSummary: { type: Boolean },
+        // JSON string attribute to supply questions dynamically
+        questionsAttr: { type: String, attribute: 'questions' },
     };
 
     constructor() {
@@ -17,8 +19,9 @@ class ConfettiQuiz extends LitElement {
         this.isDisabled = false;
         this.currentQuestionIndex = 0;
         this.showSummary = false;
+        this.questionsAttr = '';
         
-        // Array pertanyaan - bisa dikustomisasi
+        // Array pertanyaan default (fallback)
         this.questions = [
             { question: "Apa saja nama planet terbesar di tata surya kita?", answer: "jupiter" },
             { question: "Berapa jumlah planet dalam tata surya?", answer: "delapan" },
@@ -33,6 +36,41 @@ class ConfettiQuiz extends LitElement {
         // Menyimpan jawaban user untuk setiap soal
         this.userAnswers = [];
         this.correctAnswers = [];
+    }
+
+    updated(changed) {
+        if (changed.has('questionsAttr')) {
+            const parsed = this._parseQuestions(this.questionsAttr);
+            if (parsed && parsed.length) {
+                this.questions = parsed;
+                // reset state when questions change
+                this.currentQuestionIndex = 0;
+                this.showSummary = false;
+                this.message = '';
+                this.isCorrect = false;
+                this.isDisabled = false;
+                this.userAnswers = [];
+                this.correctAnswers = [];
+            }
+        }
+    }
+
+    _parseQuestions(str) {
+        if (!str || typeof str !== 'string') return null;
+        try {
+            const data = JSON.parse(str);
+            if (Array.isArray(data)) {
+                return data
+                    .map(x => ({
+                        question: String(x.question || '').trim(),
+                        answer: String(x.answer || '').trim().toLowerCase(),
+                    }))
+                    .filter(x => x.question && x.answer);
+            }
+        } catch (e) {
+            // ignore parse errors, fallback to defaults
+        }
+        return null;
     }
     
     get currentQuestion() {
