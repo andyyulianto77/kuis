@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762215380,
+      "updated": 1762214759,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -108,26 +108,6 @@
             "size": 8645
           }
         ]
-      }
-    },
-    {
-      "id": "item-70f63147-d357-4aeb-8552-41aafdca6f6e",
-      "indent": 0,
-      "location": "pages/item-70f63147-d357-4aeb-8552-41aafdca6f6e/index.html",
-      "slug": "page-2",
-      "order": 3,
-      "parent": null,
-      "title": "Page",
-      "description": "\nDeep thoughts..\nDeep thoughts..\nDeep thoughts..\nDeep thoughts..\n\n\n\n",
-      "metadata": {
-        "created": 1762215336,
-        "updated": 1762215380,
-        "images": {},
-        "videos": {},
-        "published": true,
-        "hideInMenu": false,
-        "locked": false,
-        "readtime": 1
       }
     }
   ]
