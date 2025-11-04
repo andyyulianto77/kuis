@@ -79,6 +79,22 @@
           }
         ]
       }
+    },
+    {
+      "id": "item-9dc1e752-3e55-4d6c-8376-f5e3cad1c79f",
+      "indent": 0,
+      "location": "pages/item-9dc1e752-3e55-4d6c-8376-f5e3cad1c79f/index.html",
+      "slug": "page-1",
+      "order": 1,
+      "parent": null,
+      "title": "Page",
+      "description": "",
+      "metadata": {
+        "created": 1762214510,
+        "updated": 1762214510,
+        "images": [],
+        "videos": []
+      }
     }
   ]
 }
