@@ -37,9 +37,11 @@ class CustomKuisTheme extends HAXCMSLitElementTheme {
     super();
     this._items = [];
     this.activeId = null;
+    this.logo = null;
     autorun(() => {
       this.activeId = toJS(store.activeId);
       this._items = toJS(store.manifest.items);
+      this.logo = toJS(store.manifest?.metadata?.site?.logo) || null;
     });
   }
 
@@ -55,6 +57,7 @@ class CustomKuisTheme extends HAXCMSLitElementTheme {
       ...super.properties,
       activeId: { type: String },
       _items: { type: Array },
+      logo: { type: String },
     };
   }
 
@@ -141,6 +144,15 @@ class CustomKuisTheme extends HAXCMSLitElementTheme {
           letter-spacing: .2px;
           white-space: nowrap;
         }
+        .logo {
+          height: 32px;
+          width: auto;
+          inline-size: auto;
+          block-size: 32px;
+          border-radius: 6px;
+          object-fit: cover;
+          box-shadow: 0 1px 2px rgba(0,0,0,.12);
+        }
         .nav-scroll {
           flex: 1 1 auto;
           min-width: 0;
@@ -221,6 +233,7 @@ class CustomKuisTheme extends HAXCMSLitElementTheme {
         <header class="site-header">
           <div class="brand">
             <site-menu-button type="prev" position="top"></site-menu-button>
+            ${this.logo ? html`<img class="logo" src="${this.logo}" alt="Logo" />` : ''}
             <site-title></site-title>
           </div>
           <div class="nav-scroll">
