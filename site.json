@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762219540,
+      "updated": 1762219978,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -148,6 +148,26 @@
         "hideInMenu": false,
         "locked": false,
         "readtime": 1
+      }
+    },
+    {
+      "id": "item-kuis-confeti",
+      "indent": 0,
+      "location": "pages/item-kuis-confeti/index.html",
+      "slug": "kuis-confeti",
+      "order": 5,
+      "parent": null,
+      "title": "Kuis Confeti Demo",
+      "description": "Kuis Confeti Demo\n\n",
+      "metadata": {
+        "created": 1762218395,
+        "updated": 1762219978,
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1,
+        "videos": {},
+        "images": {}
       }
     }
   ]
