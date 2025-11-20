@@ -115,24 +115,6 @@
       }
     },
     {
-      "id": "item-kuis-fitur",
-      "indent": 0,
-      "location": "pages/item-kuis-fitur/index.html",
-      "slug": "kuis-fitur",
-      "order": 7,
-      "parent": null,
-      "title": "Fitur Kuis",
-      "description": "Ringkasan fitur kuis",
-      "metadata": {
-        "created": 1762221117,
-        "updated": 1762221117,
-        "published": true,
-        "hideInMenu": false,
-        "locked": false,
-        "readtime": 1
-      }
-    },
-    {
       "id": "item-43e971d7-5260-4e77-b1bd-6067bb22d2c2",
       "indent": 0,
       "location": "pages/item-43e971d7-5260-4e77-b1bd-6067bb22d2c2/index.html",
