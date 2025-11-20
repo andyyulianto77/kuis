@@ -15,7 +15,7 @@
         "canonical": true
       },
       "created": 1762212603,
-      "updated": 1762221321,
+      "updated": 1763610617,
       "git": {
         "vendor": "github",
         "branch": "gh-pages"
@@ -137,15 +137,26 @@
       "indent": 0,
       "location": "pages/item-43e971d7-5260-4e77-b1bd-6067bb22d2c2/index.html",
       "slug": "page-1",
-      "order": 1,
+      "order": 2,
       "parent": null,
       "title": "Page",
-      "description": "",
+      "description": "\n",
       "metadata": {
         "created": 1763610571,
-        "updated": 1763610571,
-        "images": [],
-        "videos": []
+        "updated": 1763610617,
+        "images": {},
+        "videos": {},
+        "theme": {
+          "element": "haxcms-blank-theme",
+          "path": "@haxtheweb/haxcms-elements/lib/core/themes/haxcms-blank-theme.js",
+          "name": "Blank theme",
+          "thumbnail": "build/es6/node_modules/@haxtheweb/app-hax/lib/assets/images/GreyStyle.svg",
+          "key": "haxcms-blank-theme"
+        },
+        "published": true,
+        "hideInMenu": false,
+        "locked": false,
+        "readtime": 1
       }
     }
   ]
